@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Drawing App✍</title>
+    <link rel="stylesheet" href="../jquery-ui/jquery-ui.css">
+    <link rel="stylesheet" href="drawingApp.css">
+</head>
+
+<body>
+    <header>
+        <div id="header">Drawing app✍</div>
+    </header>
+    <section class="inputcontainer">
+        <div id="inputcolor" class="input">
+            <input type="color" list id="paintcolor">
+        </div>
+        <div id="thickness">
+            <div id="circle"></div>
+        </div>
+        <div class="input">
+            <div id="slider"></div>
+        </div>
+    </section>
+
+    <main>
+        <!--    canvas container here-->
+        <div id="container">
+            <canvas id="paint" width="500px" height="400px"></canvas>
+        </div>
+        <!--        buttons-->
+        <div id="buttonscontainer">
+            <div id="erase" class="btn">erase</div>
+            <div id="save" class="btn">save</div>
+            <div id="reset" class="btn">reset</div>
+        </div>
+    </main>
+
+
+    <script src="../js/jquery.js"></script>
+    <script src="../jquery-ui/jquery-ui.js"></script>
+    <script src="drawingApp.js"></script>
+</body>
+
+</html>
